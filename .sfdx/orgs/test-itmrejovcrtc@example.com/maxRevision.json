@@ -1,0 +1,41 @@
+{
+    "serverMaxRevisionCounter": 17,
+    "sourceMembers": {
+        "Profile__Admin": {
+            "serverRevisionCounter": 12,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "ApexClass__APICallout": {
+            "serverRevisionCounter": 13,
+            "lastRetrievedFromServer": 13,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__APICalloutTest": {
+            "serverRevisionCounter": 14,
+            "lastRetrievedFromServer": 14,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__SendSlackNotification": {
+            "serverRevisionCounter": 15,
+            "lastRetrievedFromServer": 15,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__SendSlackNotificationTest": {
+            "serverRevisionCounter": 16,
+            "lastRetrievedFromServer": 16,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "NamedCredential__SlackConnection": {
+            "serverRevisionCounter": 17,
+            "lastRetrievedFromServer": 17,
+            "memberType": "NamedCredential",
+            "isNameObsolete": false
+        }
+    }
+}

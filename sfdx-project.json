@@ -1,0 +1,20 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "sendslackmessages",
+            "versionName": "Version 1.0",
+            "versionNumber": "1.0.2.NEXT"
+        }
+    ],
+    "namespace": "halosight",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "49.0",
+    "packageAliases": {
+        "sendslackmessages": "0Ho2H000000KykESAS",
+        "sendslackmessages@1.0.0-1": "04t2H00000126PxQAI",
+        "sendslackmessages@1.0.1-1": "04t2H00000126Q2QAI",
+        "sendslackmessages@1.0.2-1": "04t2H00000126Q7QAI"
+    }
+}

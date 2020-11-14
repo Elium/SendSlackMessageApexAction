@@ -1,4 +1,4 @@
-# Salesforce App
+# Send Slack Messages from Salesforce
 
 ## Dev, Build and Test
 

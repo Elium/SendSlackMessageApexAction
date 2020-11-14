@@ -33,7 +33,7 @@ Will produce the following formatting:
 This is a line of text.
 And this is another one.
 ```
-#### Sections
+### Sections
 To define larger line breaks, known as Sections, use the string `,,,`. For example:
 ```
 This is one section.,,, And this is another section.

@@ -24,7 +24,7 @@ A small amount of setup is required to begin using this component. <a href="">Th
 
 ## Formatting
 Slack uses the mrkdwn language to format messages, you can use this language for any text inside of the *Message* input parameter. For official documentation on mrkdown from Slack, <a href="https://api.slack.com/reference/surfaces/formatting">click here</a>.  
-**Note**: Because of certain Salesforce limitations, the *Line break* mrkdown action `\n` is not supported, instead, use `--n` to define a new line. For example:
+**IMPORTANT NOTE**: Because of certain Salesforce limitations, the *Line break* mrkdown action `\n` is not supported, instead, use `--n` to define a new line. For example:
 ```
 This is a line of text. --nAnd this is another one.
 ```

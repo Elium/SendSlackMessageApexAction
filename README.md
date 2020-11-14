@@ -22,6 +22,26 @@ A small amount of setup is required to begin using this component. <a href="">Th
 
 **User Mentions** (*String*): Accepts a comma separated string of Slack member IDs, for each ID present, the corresponding user will be @ mentioned in the message. The Slack member ID for a given user can be found by clicking the user's profile image in Slack and then going to *View full profile > More > Copy member ID*. A single ID may be entered here, or if needed, a comma separated String of IDs may also be entered.
 
-## Description of Files and Directories
+## Formatting
+Slack uses the mrkdwn language to format messages, you can use this language for any text inside of the *Message* input parameter. For official documentation on mrkdown from Slack, <a href="https://api.slack.com/reference/surfaces/formatting">click here</a>.
+**Note**: Because of certain Salesforce limitations, the *Line break* mrkdown action `\n` is not supported, instead, use `--n` to define a new line. For example:
+```
+This is a line of text. --nAnd this is another one.
+```
+Will produce the following formatting:
+```
+This is a line of text.
+And this is another one.
+```
+#### Sections
+To define larger line breaks, known as Sections, use the string `,,,`. For example:
+```
+This is one section.,,, And this is another section.
+```
+Will produce the following formatting:
+```
+This is one section.
 
-## Issues
+And this is another section.
+```
+

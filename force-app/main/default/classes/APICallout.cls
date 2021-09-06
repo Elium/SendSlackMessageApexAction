@@ -70,8 +70,7 @@ global class APICallout {
                 }
             }
 
-            System.log('-----')
-            System.debug(req)
+            System.debug(req);
             
             Http h = new Http();
             HttpResponse httpResponse = h.send(req);
